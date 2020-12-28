@@ -1,0 +1,9 @@
+.contact {
+  width: 100%;
+}
+
+.contact__container {
+  width: 50%;
+  margin: auto;
+  margin-top: 375px;
+}

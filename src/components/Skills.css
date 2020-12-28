@@ -1,0 +1,26 @@
+.skills {
+  width: 100%;
+}
+
+.skills__container {
+  width: 50%;
+  margin: auto;
+  margin-top: 375px;
+}
+
+@media (max-width: 500px) {
+  .skills__container {
+    width: 80%;
+    margin-top: 120px;
+    padding-bottom: 50px;
+    height: 100vh;
+  }
+
+  .skills__container > h1 {
+    font-size: 28px;
+  }
+
+  .skills__container > p {
+    font-size: 16px;
+  }
+}
