@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 
 import Home from "./components/Home";
 import Projects from "./components/Projects";
@@ -19,9 +19,9 @@ function App() {
           <Route exact path="/projects">
             <Projects className="page" />
           </Route>
-          <Route exact path="/contact">
+          {/* <Route exact path="/contact">
             <Contact className="page" />
-          </Route>
+          </Route> */}
           <Route path="/">
             <Home className="page" />
           </Route>

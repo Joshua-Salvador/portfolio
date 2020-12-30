@@ -29,7 +29,8 @@
 .project__image {
   width: 360px;
   height: 128px;
-  object-fit: cover;
+  object-fit: fill;
+  border-radius: 5px;
 }
 
 @media (max-width: 500px) {
@@ -38,7 +39,7 @@
     margin: auto 32px auto 0;
   }
   .project__title {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   p {
